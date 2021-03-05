@@ -1,6 +1,6 @@
 #map {
-    height: 400px;
-    width: 50%;
+    height: 600px;
+    width: 100%;
 }
 
 html,
@@ -10,8 +10,28 @@ body {
     padding: 0;
 }
 
-#infoContent {}
+.my-container {
+    margin-left: 50px;
+    background: rgb(170, 170, 170);
+    background-repeat: no-repeat;
+}
 
-.infoImg {
-    background-image: url("/images/chaminar.jpg");
+.my-card {
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px gray;
+    border: 0.5px solid grey;
+}
+
+.my-card-row {
+    height: 120px;
+}
+
+.my-img {
+    height: 100px;
+    width: 100px;
+}
+
+.my-card-col {
+    font-size: small;
 }

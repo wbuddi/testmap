@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bring Me Home</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/map.css" />
+    <script src="./js/map.js"></script>
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="my-5">
+        <nav class="navbar navbar-expand-lg navbar-default fixed-top">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="images/color_logo_White_logo_Transparent.png" alt="logo" style="max-width:80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#history">Order History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#saved">Saved</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rewards">Rewards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Donate">Donate</a>
+                    </li>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link">Sign In</a>
+                    </li>
+                </ul>
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Register</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container my-container mb-5">
+        <div class="row my-row justify-content-center">
+            <div class="col-4 my-col">
+
+                <div class="container my-card mb-4">
+                    <div class="row my-card-row pt-2 pb-2">
+                        <div class="col-4 my-card-col align-items-center">
+                            <img src="images/chaminar.jpg" class="my-img">
+                        </div>
+                        <div class="col-8 my-card-col">
+                            <h5>Chaminar</h5>
+                            <p>Biryani | Samosa | Dosa </p>
+                            <p>1KM 3:00 PM-4:00PM $5.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container my-card mb-4">
+                    <div class="row my-card-row pt-2 pb-2">
+                        <div class="col-4 my-card-col align-items-center">
+                            <img src="images/Willo & Co.jpg" class="my-img">
+                        </div>
+                        <div class="col-8 my-card-col">
+                            <h5>Willo & Co</h5>
+                            <p>Burgers | Sandwiches | Wraps </p>
+                            <p>3KM 3:00 PM-4:00PM $5.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container my-card mb-4">
+                    <div class="row my-card-row pt-2 pb-2">
+                        <div class="col-4 my-card-col align-items-center">
+                            <img src="images/Avist Cafe.jpg" class="my-img">
+                        </div>
+                        <div class="col-8 my-card-col">
+                            <h5>Avist Cafe</h5>
+                            <p>Pizza | Pies | Wraps</p>
+                            <p>9KM 4:00 PM-6:00PM $6.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container my-card mb-4">
+                    <div class="row my-card-row pt-2 pb-2">
+                        <div class="col-4 my-card-col align-items-center">
+                            <img src="images/Guzman y Gomez.jpg" class="my-img">
+                        </div>
+                        <div class="col-8 my-card-col">
+                            <h5>Guzman y Gomez</h5>
+                            <p>Tacos | Burritto | Nachos</p>
+                            <p>5KM 5:00 PM-6:30PM $5.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-8 map-container my-col">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMS37o5m8wvKE5Gk7Y-ntfH2GCv8wtpiw&callback=initMap&libraries=&v=weekly" async></script>
+</body>
+
+</html>

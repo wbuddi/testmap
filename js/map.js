@@ -35,27 +35,27 @@ function initMap() {
         {
             coords: { lat: -34.931129, lng: 138.604889 },
             iconImage: 'https://img.icons8.com/ios-filled/50/4a90e2/restaurant-membership-card.png',
-            content: '<div id=infoContent><div class="infoImg"></div><h3>Chaminar</h3></div>'
+            content: '<h3>Chaminar</h3><p>Biryani | Samosa | Dosa </p><p>1KM 3:00 PM-4:00PM $5.00</p>'
         },
         {
             coords: { lat: -34.9347334, lng: 138.5898541 },
             iconImage: 'https://img.icons8.com/ios-filled/50/4a90e2/restaurant-membership-card.png',
-            content: '<h1>Willo & Co</h1>'
+            content: '<h3>Willo & Co</h3><p>Burgers | Sandwiches | Wraps </p><p>3KM 3:00 PM-4:00PM $5.00</p>'
         },
         {
             coords: { lat: -34.929157, lng: 138.593695 },
             iconImage: 'https://img.icons8.com/ios-filled/50/4a90e2/restaurant-membership-card.png',
-            content: '<h1>Avist Cafe</h1>'
+            content: '<h3>Avist Cafe</h3><p>Pizza | Pies | Wraps</p><p>9KM 4:00 PM-6:00PM $6.00</p>'
         },
         {
             coords: { lat: -34.9271021, lng: 138.5987801 },
             iconImage: 'https://img.icons8.com/ios-filled/50/4a90e2/restaurant-membership-card.png',
-            content: '<h1>3 Viets</h1>'
+            content: '<h3>Guzman y Gomez</h3><p>Tacos | Burritto | Nachos</p><p>5KM 5:00 PM-6:30PM $5.00</p>'
         },
         {
             coords: { lat: -34.9228097, lng: 138.5921937 },
             iconImage: 'https://img.icons8.com/ios-filled/50/4a90e2/restaurant-membership-card.png',
-            content: '<h1>Sushi Planet</h1>'
+            content: '<h3>Sushi Planet</h3><p>Sushi | Noodles | Cold Rolls</p><p>11KM 3:00 PM-4:30PM $7.00</p>'
         },
     ];
 
